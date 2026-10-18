@@ -1,0 +1,16 @@
+sku,product_name,category,subcategory,unit_price
+EL-1001,Wireless Headphones,Electronics,Audio,129.99
+EL-1002,Bluetooth Speaker,Electronics,Audio,79.99
+EL-1003,Smart Watch,Electronics,Wearables,249.99
+EL-1004,USB-C Charger Kit,Electronics,Accessories,34.99
+EL-1005,Laptop Stand,Electronics,Accessories,59.99
+AP-2001,Denim Jacket,Apparel,Outerwear,89.99
+AP-2002,Cotton T-Shirt,Apparel,Tops,24.99
+AP-2003,Running Shoes,Apparel,Footwear,119.99
+AP-2004,Wool Sweater,Apparel,Tops,69.99
+HM-3001,Ceramic Dinner Set,Home,Kitchen,149.99
+HM-3002,Table Lamp,Home,Decor,49.99
+HM-3003,Bedsheet Set,Home,Bedding,79.99
+SP-4001,Yoga Mat,Sports,Fitness,39.99
+SP-4002,Dumbbell Pair 15lb,Sports,Fitness,89.99
+SP-4003,Insulated Water Bottle,Sports,Outdoor,29.99
