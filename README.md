@@ -40,3 +40,18 @@ In my experience the dashboard is the easy part — the part that decides
 whether anyone trusts it is the modeling underneath. One grain, one definition
 of revenue, surrogate keys, a real date table. Get that right and the DAX
 practically writes itself; get it wrong and every measure becomes an argument.
+
+## What I'd do next
+
+If this were a real deployment rather than a portfolio build, the next
+three things on my list:
+
+- **Incremental refresh on the fact table.** Two years of orders is small;
+  ten years across forty stores isn't. Partition by month and only reload
+  the current one.
+- **Row-level security by region.** The model notes sketch the approach;
+  in production I'd drive it from a proper security table maintained by
+  the business, not hard-coded roles.
+- **A data-quality gate before publish.** Row-count and revenue-total
+  checks against the source, so a bad load fails loudly instead of
+  quietly landing on someone's dashboard at 7 AM.
